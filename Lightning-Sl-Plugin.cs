@@ -8,7 +8,7 @@ namespace Lightning_SL_Plugin
         private bool Experimental = true;
         public override string Name => "Lightning-SL-Plugin";
         public override string Author => "Dashtiss, Lightning-MC";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 0, 1);
         public override void OnEnabled()
         {
             Log.Warn("Lightning-sl-Plugin is empty");
